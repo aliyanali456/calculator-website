@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main1 {
+
+    width: 40%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+
+    /* margin-left: 100px; */
+    background-color: #344450;
+    border-radius: 25px;
+
+
+
+}
+
+.cal1 {
+    width: 85%;
+    height: 65px;
+    text-align: right;
+    /* margin: 20px 20px; */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 12px;
+    font-size: 30px;
+    border: none;
+    padding-right: 10px ;
+
+
+
+}
+
+.main2 {
+
+    width: 85%;
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    margin-bottom: 10px;
+
+
+
+}
+
+.heigth {
+
+    height: 50px;
+}
+
+td {
+    height: 80px;
+    width: 70px;
+    /* border-radius: 50% ; */
+
+    text-align: center;
+    background-color: #c1dcdf;
+    font-size: 24px;
+}
+
+td:hover {
+
+    cursor: pointer;
+}
+
+/* td[colspan="2"] {
+    width: 140px;
+} */
+
+
+@media only screen and (max-width: 752px) {
+
+    .main1 {
+        width: 60%;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+
+    .main1 {
+        width: 95%;
+    }
+
+}
+
+
+
